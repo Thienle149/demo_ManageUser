@@ -186,11 +186,6 @@ UIAlertController *alertDelete;
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UserTableViewCell *cell = (UserTableViewCell*)[tableView dequeueReusableCellWithIdentifier: identifierUserCell forIndexPath: indexPath];
-    if (cell == nil)
-    {
-        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"UserTableViewCell" owner:self options:nil];
-        cell = [nib objectAtIndex:0];
-    }
     [cell setUp: self.items[indexPath.row]];
     cell.alertDelegate = self;
     return cell;
