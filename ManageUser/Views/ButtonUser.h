@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  ButtonUser.h
 //  ManageUser
 //
 //  Created by Le Minh Thien on 7/28/20.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow* window;
+@interface ButtonUser : UIButton
 @end
 
+NS_ASSUME_NONNULL_END

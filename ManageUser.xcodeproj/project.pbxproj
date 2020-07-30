@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2138F72824D1BF17005CDE96 /* FMDatabaseServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2138F72724D1BF17005CDE96 /* FMDatabaseServices.m */; };
+		215C360E24D17ED100C1D9FE /* manageruser.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 215C360D24D17ED100C1D9FE /* manageruser.sqlite */; };
+		21642E5724D0730200B02A75 /* ButtonUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 21642E5624D0730200B02A75 /* ButtonUser.m */; };
 		216B0F1224CFE8B700AEC8B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B0F1124CFE8B700AEC8B5 /* AppDelegate.m */; };
 		216B0F1524CFE8B700AEC8B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B0F1424CFE8B700AEC8B5 /* SceneDelegate.m */; };
 		216B0F1824CFE8B700AEC8B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B0F1724CFE8B700AEC8B5 /* ViewController.m */; };
@@ -14,9 +17,18 @@
 		216B0F1D24CFE8BA00AEC8B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216B0F1C24CFE8BA00AEC8B5 /* Assets.xcassets */; };
 		216B0F2024CFE8BA00AEC8B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216B0F1E24CFE8BA00AEC8B5 /* LaunchScreen.storyboard */; };
 		216B0F2324CFE8BA00AEC8B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B0F2224CFE8BA00AEC8B5 /* main.m */; };
+		216B0F7124D0141A00AEC8B5 /* Usermodel.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B0F7024D0141A00AEC8B5 /* Usermodel.m */; };
+		216B0F7624D02C7000AEC8B5 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B0F7424D02C7000AEC8B5 /* UserTableViewCell.m */; };
+		216B0F7724D02C7000AEC8B5 /* UserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 216B0F7524D02C7000AEC8B5 /* UserTableViewCell.xib */; };
+		5BB245607FF741479065CDD8 /* Pods_ManageUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E83562762E3A61C63531CCA /* Pods_ManageUser.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2138F72624D1BF17005CDE96 /* FMDatabaseServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseServices.h; sourceTree = "<group>"; };
+		2138F72724D1BF17005CDE96 /* FMDatabaseServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseServices.m; sourceTree = "<group>"; };
+		215C360D24D17ED100C1D9FE /* manageruser.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = manageruser.sqlite; sourceTree = "<group>"; };
+		21642E5524D0730200B02A75 /* ButtonUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonUser.h; sourceTree = "<group>"; };
+		21642E5624D0730200B02A75 /* ButtonUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonUser.m; sourceTree = "<group>"; };
 		216B0F0D24CFE8B700AEC8B5 /* ManageUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		216B0F1024CFE8B700AEC8B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		216B0F1124CFE8B700AEC8B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +41,14 @@
 		216B0F1F24CFE8BA00AEC8B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216B0F2124CFE8BA00AEC8B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		216B0F2224CFE8BA00AEC8B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		216B0F6F24D0141A00AEC8B5 /* Usermodel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Usermodel.h; sourceTree = "<group>"; };
+		216B0F7024D0141A00AEC8B5 /* Usermodel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Usermodel.m; sourceTree = "<group>"; };
+		216B0F7324D02C7000AEC8B5 /* UserTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		216B0F7424D02C7000AEC8B5 /* UserTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		216B0F7524D02C7000AEC8B5 /* UserTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserTableViewCell.xib; sourceTree = "<group>"; };
+		4E83562762E3A61C63531CCA /* Pods_ManageUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ManageUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A41314D06BF690F11F530D2 /* Pods-ManageUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManageUser.release.xcconfig"; path = "Target Support Files/Pods-ManageUser/Pods-ManageUser.release.xcconfig"; sourceTree = "<group>"; };
+		CB91251DE43161D55D4BEF6C /* Pods-ManageUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ManageUser.debug.xcconfig"; path = "Target Support Files/Pods-ManageUser/Pods-ManageUser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +56,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB245607FF741479065CDD8 /* Pods_ManageUser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2138F72524D1BEF9005CDE96 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2138F72624D1BF17005CDE96 /* FMDatabaseServices.h */,
+				2138F72724D1BF17005CDE96 /* FMDatabaseServices.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		215C360A24D17EA400C1D9FE /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				215C360D24D17ED100C1D9FE /* manageruser.sqlite */,
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
 		216B0F0424CFE8B700AEC8B5 = {
 			isa = PBXGroup;
 			children = (
 				216B0F0F24CFE8B700AEC8B5 /* ManageUser */,
 				216B0F0E24CFE8B700AEC8B5 /* Products */,
+				ADF4E7F31916C114BC638627 /* Pods */,
+				E68EB8130DD4C8DA1284C074 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +101,10 @@
 		216B0F0F24CFE8B700AEC8B5 /* ManageUser */ = {
 			isa = PBXGroup;
 			children = (
+				2138F72524D1BEF9005CDE96 /* Services */,
+				215C360A24D17EA400C1D9FE /* DB */,
+				216B0F7224D02C4900AEC8B5 /* Views */,
+				216B0F6E24D013F300AEC8B5 /* Models */,
 				216B0F1024CFE8B700AEC8B5 /* AppDelegate.h */,
 				216B0F1124CFE8B700AEC8B5 /* AppDelegate.m */,
 				216B0F1324CFE8B700AEC8B5 /* SceneDelegate.h */,
@@ -76,6 +120,44 @@
 			path = ManageUser;
 			sourceTree = "<group>";
 		};
+		216B0F6E24D013F300AEC8B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				216B0F6F24D0141A00AEC8B5 /* Usermodel.h */,
+				216B0F7024D0141A00AEC8B5 /* Usermodel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		216B0F7224D02C4900AEC8B5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				216B0F7324D02C7000AEC8B5 /* UserTableViewCell.h */,
+				216B0F7424D02C7000AEC8B5 /* UserTableViewCell.m */,
+				216B0F7524D02C7000AEC8B5 /* UserTableViewCell.xib */,
+				21642E5524D0730200B02A75 /* ButtonUser.h */,
+				21642E5624D0730200B02A75 /* ButtonUser.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ADF4E7F31916C114BC638627 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB91251DE43161D55D4BEF6C /* Pods-ManageUser.debug.xcconfig */,
+				7A41314D06BF690F11F530D2 /* Pods-ManageUser.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E68EB8130DD4C8DA1284C074 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E83562762E3A61C63531CCA /* Pods_ManageUser.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 216B0F2624CFE8BA00AEC8B5 /* Build configuration list for PBXNativeTarget "ManageUser" */;
 			buildPhases = (
+				3A72264F0D943F6EF50D24A9 /* [CP] Check Pods Manifest.lock */,
 				216B0F0924CFE8B700AEC8B5 /* Sources */,
 				216B0F0A24CFE8B700AEC8B5 /* Frameworks */,
 				216B0F0B24CFE8B700AEC8B5 /* Resources */,
+				E8D25E01F43D5D0B2F7D57E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,7 +217,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				216B0F7724D02C7000AEC8B5 /* UserTableViewCell.xib in Resources */,
 				216B0F2024CFE8BA00AEC8B5 /* LaunchScreen.storyboard in Resources */,
+				215C360E24D17ED100C1D9FE /* manageruser.sqlite in Resources */,
 				216B0F1D24CFE8BA00AEC8B5 /* Assets.xcassets in Resources */,
 				216B0F1B24CFE8B700AEC8B5 /* Main.storyboard in Resources */,
 			);
@@ -141,13 +227,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A72264F0D943F6EF50D24A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ManageUser-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D25E01F43D5D0B2F7D57E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManageUser/Pods-ManageUser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ManageUser/Pods-ManageUser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ManageUser/Pods-ManageUser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		216B0F0924CFE8B700AEC8B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21642E5724D0730200B02A75 /* ButtonUser.m in Sources */,
 				216B0F1824CFE8B700AEC8B5 /* ViewController.m in Sources */,
 				216B0F1224CFE8B700AEC8B5 /* AppDelegate.m in Sources */,
+				2138F72824D1BF17005CDE96 /* FMDatabaseServices.m in Sources */,
+				216B0F7624D02C7000AEC8B5 /* UserTableViewCell.m in Sources */,
+				216B0F7124D0141A00AEC8B5 /* Usermodel.m in Sources */,
 				216B0F2324CFE8BA00AEC8B5 /* main.m in Sources */,
 				216B0F1524CFE8B700AEC8B5 /* SceneDelegate.m in Sources */,
 			);
@@ -287,32 +419,42 @@
 		};
 		216B0F2724CFE8BA00AEC8B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB91251DE43161D55D4BEF6C /* Pods-ManageUser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CH3EWM6K7J;
 				INFOPLIST_FILE = ManageUser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Demo.ManageUser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "IMT Developer";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		216B0F2824CFE8BA00AEC8B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A41314D06BF690F11F530D2 /* Pods-ManageUser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CH3EWM6K7J;
 				INFOPLIST_FILE = ManageUser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Demo.ManageUser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "IMT Developer";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
