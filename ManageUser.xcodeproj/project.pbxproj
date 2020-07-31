@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2138F72824D1BF17005CDE96 /* FMDatabaseServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 2138F72724D1BF17005CDE96 /* FMDatabaseServices.m */; };
-		215C360E24D17ED100C1D9FE /* manageruser.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 215C360D24D17ED100C1D9FE /* manageruser.sqlite */; };
 		21642E5724D0730200B02A75 /* ButtonUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 21642E5624D0730200B02A75 /* ButtonUser.m */; };
 		216B0F1224CFE8B700AEC8B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B0F1124CFE8B700AEC8B5 /* AppDelegate.m */; };
 		216B0F1524CFE8B700AEC8B5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 216B0F1424CFE8B700AEC8B5 /* SceneDelegate.m */; };
@@ -26,7 +25,6 @@
 /* Begin PBXFileReference section */
 		2138F72624D1BF17005CDE96 /* FMDatabaseServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMDatabaseServices.h; sourceTree = "<group>"; };
 		2138F72724D1BF17005CDE96 /* FMDatabaseServices.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseServices.m; sourceTree = "<group>"; };
-		215C360D24D17ED100C1D9FE /* manageruser.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = manageruser.sqlite; sourceTree = "<group>"; };
 		21642E5524D0730200B02A75 /* ButtonUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonUser.h; sourceTree = "<group>"; };
 		21642E5624D0730200B02A75 /* ButtonUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonUser.m; sourceTree = "<group>"; };
 		216B0F0D24CFE8B700AEC8B5 /* ManageUser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManageUser.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,14 +70,6 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		215C360A24D17EA400C1D9FE /* DB */ = {
-			isa = PBXGroup;
-			children = (
-				215C360D24D17ED100C1D9FE /* manageruser.sqlite */,
-			);
-			path = DB;
-			sourceTree = "<group>";
-		};
 		216B0F0424CFE8B700AEC8B5 = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +92,6 @@
 			isa = PBXGroup;
 			children = (
 				2138F72524D1BEF9005CDE96 /* Services */,
-				215C360A24D17EA400C1D9FE /* DB */,
 				216B0F7224D02C4900AEC8B5 /* Views */,
 				216B0F6E24D013F300AEC8B5 /* Models */,
 				216B0F1024CFE8B700AEC8B5 /* AppDelegate.h */,
@@ -219,7 +208,6 @@
 			files = (
 				216B0F7724D02C7000AEC8B5 /* UserTableViewCell.xib in Resources */,
 				216B0F2024CFE8BA00AEC8B5 /* LaunchScreen.storyboard in Resources */,
-				215C360E24D17ED100C1D9FE /* manageruser.sqlite in Resources */,
 				216B0F1D24CFE8BA00AEC8B5 /* Assets.xcassets in Resources */,
 				216B0F1B24CFE8B700AEC8B5 /* Main.storyboard in Resources */,
 			);
